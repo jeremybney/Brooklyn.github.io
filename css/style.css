@@ -83,7 +83,8 @@
 		font-weight: 300;
 		color: #777;
 	}
-	
+
+
 	strong, b
 	{
 		font-weight: 400;
@@ -449,6 +450,8 @@
 	.icon-share:before			{ content: '\E118'; }
 	.icon-tilemenu:before		{ content: '\E12a'; }
 	.icon-user:before			{ content: '\E137'; }
+	.icon-camera:before			{ content: '\E026';	}
+	.icon-video:before			{ content: '\E139'; }
 	
 	.icon-dribbble:before		{ content: '\E03f'; }
 	.icon-facebook:before		{ content: '\E047'; }
