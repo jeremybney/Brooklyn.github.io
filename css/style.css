@@ -275,8 +275,24 @@
 	
 	.image-left
 	{
+		display: inline-block;
 		float: left;
-		margin: 0 2em 2em 0;
+		margin: auto;
+		text-align: center;
+	}
+
+	.image-right
+	{
+		display: inline-block;
+		float: right;
+		text-align: center;
+		margin: auto;
+	}
+
+	.container{
+		display: inline-block;
+		height:100%;
+		width:100%;
 	}
 	
 	.image-centered
@@ -452,6 +468,7 @@
 	.icon-user:before			{ content: '\E137'; }
 	.icon-camera:before			{ content: '\E026';	}
 	.icon-video:before			{ content: '\E139'; }
+	.icon-mobile:before			{ content: '\E078'; }
 	
 	.icon-dribbble:before		{ content: '\E03f'; }
 	.icon-facebook:before		{ content: '\E047'; }
